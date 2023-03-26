@@ -27,7 +27,7 @@ var columnaVacia = 2;
 Cada elemento de este arreglo deberá ser mostrado en la lista con id 'lista-instrucciones'. 
 Para eso deberás usar la función ya implementada mostrarInstruccionEnLista().
 Podés ver su implementación en la ultima parte de este codigo. */
-function mostrarInstrucciones(instrucciones) {
+const mostrarInstrucciones = (instrucciones) => {
   for (var i = 0; i < instrucciones.length; i++) {
     mostrarInstruccionEnLista(instrucciones[i], "lista-instrucciones");
   }
